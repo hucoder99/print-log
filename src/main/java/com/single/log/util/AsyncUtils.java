@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 /**
- * @author wanghu
+ * @author single
  * @since 1.4.1
  */
 public final class AsyncUtils {

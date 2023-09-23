@@ -17,6 +17,7 @@
         <hutool.version>5.8.5</hutool.version>
         <guava.version>31.1-jre</guava.version>
         <javax.servlet.version>4.0.1</javax.servlet.version>
+        <mybatis.version>3.5.2</mybatis.version>
     </properties>
 
     <dependencies>
@@ -52,6 +53,12 @@
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>${javax.servlet.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>${mybatis.version}</version>
         </dependency>
 
         <dependency>
